@@ -1,0 +1,31 @@
+
+h1 {
+    color: black;
+    font-size: 3em;
+}
+
+p {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(184, 247, 226);
+    font-size: 14px
+}
+
+.skill-list {
+    font-size: 2em;
+}
+
+#name-header {
+    border: 1px solid red;
+}
+
+#photo {
+    border: 1px solid green;
+}
+
+#about-me {
+    border: 1px solid blue;
+}
