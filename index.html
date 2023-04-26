@@ -4,58 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+
     <title>Portfólio Web</title>
-    <style>
-
-        h1 {
-            color: black;
-            font-size: 3em;
-        }
-
-        p {
-            font-family: monospace;
-            font-weight: bold;
-        }
-
-        body {
-            background-color: rgb(184, 247, 226);
-            font-size: 14px
-        }
-
-        .skill-list {
-            font-size: 2em;
-        }
-
-    </style>
 </head>
 <body>
-    
-    <h1>Germano Moreira</h1>
 
-    <img src="./images/IMG-1480.PNG" alt="Foto do Germano Moreira" width="150px">
-
-    <h3>ìndice:</h3>
-        <ul>
+        <ul id="index">
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <br>
             <li><a href="#lista-de-habilidades">Lista de habilidades</a></li>
         </ul>
 
-        <h2 id="sobre-mim">Sobre mim:</h2>
-        <p>
-            Meu nome é Germano Moreira da Luz, tenho 20 anos de idade, sou de Porto Alegre(<strong>Rio Grande do Sul</strong>), e recentemente ingressei na Trybe com o sonho de me tornar um Desenvolvedor Web. Desde criança gosto e me dou muito bem com técnologia, seja nos games, no celular, etc... E vendo o que a téncnologia proporciona para nós hoje e vai nos proporcionar futuramente, eu como um amante da área decidi seguir o caminho da tão chamada "<i>profissão do futuro</i>", na qual esse tal "<i>futuro</i>", já chegou.
-        </p>
+    <div id="all">
+        <h1>Germano Moreira</h1>
+    
 
+    <div id="photo-text">
+        <img src="./images/eu.PNG" alt="Foto do Germano Moreira" width="150px" id="my-picture">
+
+            <h2 id="sobre-mim">Sobre mim:</h2>
+            <p id="descricao">
+                Meu nome é Germano Moreira da Luz, tenho 20 anos de idade, sou de Porto Alegre(<strong>Rio Grande do Sul</strong>), e recentemente ingressei na Trybe com o sonho de me tornar um Desenvolvedor Web. Desde criança gosto e me dou muito bem com técnologia, seja nos games, no celular, etc... E vendo o que a téncnologia proporciona para nós hoje e vai nos proporcionar futuramente, eu como um amante da área decidi seguir o caminho da tão chamada "<i>profissão do futuro</i>", na qual esse tal "<i>futuro</i>", já chegou.
+            </p>    
+        </div>
+</div>
         <h2 id="lista-de-habilidades">Lista de habilidades:</h2>
             <ul>
                 <li class="skill-list">Iniciante em HTML</li>
                 <li class="skill-list">Iniciante em CSS</li>
-                <li class="skill-list"><strong>Inglês avançado</strong></li>
+                <li class="skill-list">Inglês avançado</li>
             </ul>
 
-            <h3>Links:</h3>
+            <h3 id="links">Links:</h3>
                 <a href="./images/IMG-1480.PNG" alt="Foto do Germano Moreira">Link interno para a minha foto</a>
                 <br>
                 <a href="https://blog.betrybe.com/" alt="Link para o blog da Trybe" target="_blank">Link para o blog</a>
+
 </body>
 </html>
