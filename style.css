@@ -2,30 +2,66 @@
 h1 {
     color: black;
     font-size: 3em;
+    text-align: center;
+    font-family: 'Castoro Titling', cursive;
 }
 
-p {
-    font-family: monospace;
-    font-weight: bold;
+#sobre-mim {
+    text-align: center;
+    margin-right: 130px;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 14px;
 }
 
-body {
-    background-color: rgb(184, 247, 226);
-    font-size: 14px
+#lista-de-habilidades {
+    font-family: 'Castoro Titling', cursive;
 }
 
 .skill-list {
-    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
 }
 
-#name-header {
-    border: 1px solid red;
+#links {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 14px;
 }
 
-#photo {
-    border: 1px solid green;
+
+body {
+    background-color: rgb(220, 241, 233);
+    font-size: 14px;
+    padding: 10px;
 }
 
-#about-me {
-    border: 1px solid blue;
+.skill-list:nth-child(odd) {
+    background-color: rgba(112, 201, 171, 0.514);
+    border-radius: 10%;
+    width: 11%;
+}
+
+#photo-text {
+    height: 210px;
+    position: relative;
+}
+
+#my-picture {
+    float: left;
+    height: 190px;
+    border-radius: 15%;
+    padding: 10px;
+    background-color: rgba(112, 201, 171, 0.514);
+}
+
+#descricao {
+    font-family: monospace;
+    font-weight: bold;
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    left: 200px;
+}
+
+#index {
+    list-style: none;
 }
