@@ -8,7 +8,7 @@ h1 {
 
 #sobre-mim {
     text-align: center;
-    margin-right: 130px;
+    margin-right: 450px;
     font-family: 'Castoro Titling', cursive;
     font-size: 14px;
 }
@@ -25,6 +25,14 @@ h1 {
 #links {
     font-family: 'Castoro Titling', cursive;
     font-size: 14px;
+}
+
+aside {
+    float: right;
+}
+
+aside li {
+    list-style: none;
 }
 
 
@@ -50,16 +58,25 @@ body {
     height: 190px;
     border-radius: 15%;
     padding: 10px;
-    background-color: rgba(112, 201, 171, 0.514);
+    background-color: rgba(175, 245, 221, 0.5);
+    margin-left: 300px;
 }
 
 #descricao {
     font-family: monospace;
     font-weight: bold;
     position: absolute;
+    background-color: rgba(207, 255, 239, 0.5);
+    box-shadow: 2px 2px 2px 1px rgba(141, 141, 141, 0.2);
     right: 8%;
     top: 20%;
     left: 200px;
+    width: 50%;
+    margin-left: 300px;
+}
+
+#descricao p {
+    padding: 10px;
 }
 
 #index {
